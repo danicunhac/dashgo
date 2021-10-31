@@ -6,6 +6,7 @@ export default function Home() {
       <Head>
         <title>Home | dashgo</title>
       </Head>
+      <h1>Dashgo</h1>
     </div>
   );
 }
