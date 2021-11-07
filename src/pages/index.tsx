@@ -1,5 +1,5 @@
-import Home from '../layout/home';
+import SignIn from '../layout/signin';
 
-export default function HomePage() {
-  return <Home />;
+export default function SignInPage() {
+  return <SignIn />;
 }
