@@ -1,11 +1,14 @@
-import { Text } from '@chakra-ui/layout';
+import { Text, Flex } from '@chakra-ui/react';
 import { Header } from '../common/Header';
+import { Sidebar } from '../common/Sidebar';
 
 export default function Dashboard() {
   return (
-    <>
+    <Flex direction="column" h="100vh">
       <Header />
-      <Text>Dashboard</Text>
-    </>
+      <Flex w="100%" my={6} maxW={1480} mx="auto" px={6}>
+        <Sidebar />
+      </Flex>
+    </Flex>
   );
 }
